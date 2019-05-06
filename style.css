@@ -1,0 +1,32 @@
+.pan-slider[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  height: 3px;
+  width: 60px;
+  border-radius: 6px;
+  position: absolute;
+  top: 17px;
+}
+
+.pan-slider[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  display: block;
+  background-color: white;
+  -webkit-border-radius: 50%;
+}
+input[type='range'], 
+input[type='range']:focus, 
+input[type='range']:active {
+    border: 0;
+    outline: none;
+}
+
+input[type=range]::-moz-focus-outer {
+    border: 0;
+}
